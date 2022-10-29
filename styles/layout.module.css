@@ -1,0 +1,20 @@
+.children{
+    /* padding:1rem; */
+    overflow: auto;
+    z-index: 0;
+  }
+.layout{
+  height: 99vh;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-image:linear-gradient(to right, rgb(34, 167, 190), rgb(137, 35, 168));
+
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
